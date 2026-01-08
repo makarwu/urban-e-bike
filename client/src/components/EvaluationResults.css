@@ -1,0 +1,277 @@
+.evaluation-results {
+  width: 100%;
+  max-width: 1000px;
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.results-header h2 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background: #e0e0e0;
+}
+
+.score-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.overall-score {
+  text-align: center;
+}
+
+.score-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.score-header h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.score-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: #4caf50;
+}
+
+.score-badge.large {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+}
+
+.recommendation {
+  margin-top: 15px;
+}
+
+.recommendation-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.pillar-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  border: 2px solid #e0e0e0;
+}
+
+.pillar-card h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.pillar-card .score-badge {
+  margin: 0 auto 15px;
+}
+
+.pillar-justification {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.section-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.section-card h3 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 10px;
+}
+
+.section-content {
+  color: #555;
+  line-height: 1.8;
+}
+
+.subsection {
+  margin-bottom: 20px;
+}
+
+.subsection h4 {
+  color: #667eea;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.subsection p {
+  color: #666;
+  margin: 0;
+}
+
+.detailed-scores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.swot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.section-card ul,
+.section-card ol {
+  margin: 0;
+  padding-left: 25px;
+  color: #555;
+  line-height: 1.8;
+}
+
+.section-card li {
+  margin-bottom: 10px;
+}
+
+.section-card h4 {
+  color: #667eea;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.improvements {
+  background: #e8f5e9;
+  border: 2px solid #4caf50;
+}
+
+.improvements h3 {
+  border-bottom-color: #4caf50;
+}
+
+.improvements ol {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+}
+
+.improvements li {
+  counter-increment: item;
+  margin-bottom: 15px;
+  padding-left: 35px;
+  position: relative;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.improvements li:before {
+  content: counter(item);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #4caf50;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.error-state {
+  text-align: center;
+  padding: 40px;
+}
+
+.error-state h2 {
+  color: #f44336;
+  margin-bottom: 15px;
+}
+
+.error-state p {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .evaluation-results {
+    padding: 20px;
+  }
+
+  .results-header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .pillars-grid,
+  .detailed-scores,
+  .swot-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .score-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
