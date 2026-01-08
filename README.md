@@ -1,4 +1,4 @@
-#AI-based Innovation Screener
+# AI-based Innovation Screener
 
 An AI-based prototype for evaluating innovation concepts along the dimensions of **Desirability**, **Feasibility**, and **Viability**. This system provides structured feedback on innovation ideas, including competitor analysis, BMW strategy alignment, and actionable improvement recommendations.
 
@@ -18,7 +18,7 @@ This full-stack application allows users to submit innovation concepts and recei
 
 ### Frontend (React + Vite)
 - **Location**: `client/`
-- **Technology**: React 18 with Vite for fast development
+- **Technology**: React 18 with Vite 
 - **Components**:
   - `EvaluationForm`: Input form for innovation concepts
   - `EvaluationResults`: Structured display of evaluation results
@@ -64,7 +64,7 @@ This full-stack application allows users to submit innovation concepts and recei
    ```
 
 2. **Install all dependencies**
-   Make sure to be within the urban-e-bike folder.
+   Make sure to be within the urban-e-bike folder. Check it with the "pwd" command.
 
    ```bash
    npm run install-all
@@ -149,7 +149,7 @@ The application will be available at:
 
 ### Application Walkthrough
 
-Here are GIFs demonstrating the application in action:
+Here is an image and a GIF, demonstrating the application.
 
 #### 1. Submitting an Innovation Concept
 
@@ -158,8 +158,6 @@ Here are GIFs demonstrating the application in action:
 *User enters an innovation concept and submits it for evaluation*
 
 #### 2. Viewing Evaluation Results
-
-![Evaluation Results](./docs/demo-results.png)
 
 *Comprehensive evaluation results showing scores, analysis, and recommendations*
 
