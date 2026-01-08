@@ -94,7 +94,7 @@ This full-stack application allows users to submit innovation concepts and recei
    
    ![Hugging Face Token Permissions](./docs/hf-token-permissions.png)
    
-   - `HUGGINGFACE_MODEL` is optional (default: `meta-llama/Llama-3.1-8B-Instruct`)
+   - `HUGGINGFACE_MODEL` (default: `meta-llama/Llama-3.1-8B-Instruct`)
    - Hugging Face models are free to use (with rate limits)
 
    **Important**: Make sure there are no spaces around the `=` sign and no quotes around the values:
